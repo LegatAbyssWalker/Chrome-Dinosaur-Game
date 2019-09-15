@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{d309c38a-0ed7-45e5-a355-721be2dd8fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{e71faf5e-d0a2-4ad7-998c-438f5df53c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{96fd643a-7625-44b6-a6d3-d1cd4798d59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{c45aa03c-4780-4553-9225-a46519c780e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Logic">
+      <UniqueIdentifier>{77a98506-de1a-4edc-b52f-0a08ac448ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Levels">
+      <UniqueIdentifier>{7969ea25-ca2b-40cc-b0ef-d562092de426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{75070259-39de-491f-a623-98ab01675093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{7072cb3b-50a2-4c9a-9aee-3daf0b3d9162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OStringText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleKey.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingState.cpp">
+      <Filter>States\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>States\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Cacti.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="OStringText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleKey.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingState.h">
+      <Filter>States\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>States\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreInfo.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Cacti.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
