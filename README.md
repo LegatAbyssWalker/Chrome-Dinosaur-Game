@@ -26,5 +26,5 @@
   - Helped with creating the `EnemyManager` and fixing some code.
 
 # Media
-* Youtube Channel                » www.YouTube.com/LegitMegaWalls-52
+* Youtube Channel                » https://youtube.com/c/LegatAbyssWalker
 * Github                         » https://github.com/LegatLastAbyssWalker
